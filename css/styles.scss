@@ -1,0 +1,7 @@
+.post-card{
+    &:not(:first-of-type){
+        .card-image{
+            display: none;
+        }
+    }
+}
